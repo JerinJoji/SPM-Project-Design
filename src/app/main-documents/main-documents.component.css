@@ -1,0 +1,55 @@
+a{
+    color:black;
+}
+
+.file{
+    display: inline-block;
+    width: 221.09px; 
+    height: 195.83px;
+    padding-top: 26.17px;
+    padding-bottom:25.83px;
+    padding-left: 12px;
+    padding-right:18.09px;  
+    border-radius:10px;
+}
+
+.file-info{
+    height: 18px; 
+    width: 18px;
+    left: 459px;
+    top: 302px;
+    border-radius: 0px;
+}
+
+.folder-icon{
+    left: 25.63%;
+    right: 67.51%;
+    top: 29%;
+    bottom: 61.31%;
+    margin-left: 33.12px; 
+    margin-right: 26.13px; 
+    margin-bottom: 9.14px;
+    height: 104.68px;
+    width: 131.75px;
+    left: 492.12px;
+    top: 313.17px;
+    border-radius: 10px;
+}
+
+.folder-title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.file-options{
+    height: 17px;
+    width: 4px;
+    left: 646px;
+    top: 302px;
+    border-radius: 0px;
+    margin-left: 150px;    
+}
