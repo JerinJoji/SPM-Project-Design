@@ -1,9 +1,14 @@
+a{
+    text-decoration: none;
+}
+
 .active-form {
     display: inline-block;
     width: 471px;
     height: auto;
     margin-bottom: 10px;
     margin-right: 10px;
+    margin-top: 10px;
     border: 1px solid #B7B7B7;
 }
 
