@@ -1,0 +1,25 @@
+.active-form {
+    display: inline-block;
+    width: 471px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid #B7B7B7;
+}
+
+.file-img{
+    display: inline-block;
+    height: 103px;
+    width: 82px;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-left: 17px;
+}
+
+.form-desc{ 
+    width: 300px;
+    display: inline-block;
+    height: 103px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
