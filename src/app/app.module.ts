@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MainDocumentsComponent } from './main-documents/main-documents.component';
 import { ActiveFormComponent } from './active-form/active-form.component';
+import { FormFilesComponent } from './form-files/form-files.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MainDocumentsComponent,
-    ActiveFormComponent
+    ActiveFormComponent,
+    FormFilesComponent
   ],
   imports: [
     BrowserModule,

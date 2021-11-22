@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main-documents.component.css']
 })
 export class MainDocumentsComponent implements OnInit {
-  folders = ['Department','Students','Faculty','Best Practices','Curriculum', 'Teaching Learning'];
+  folders = ['Department','Students','Faculty','Department Activity','Best Practices','Curriculum', 'Teaching Learning'];
 
   constructor() { }
 

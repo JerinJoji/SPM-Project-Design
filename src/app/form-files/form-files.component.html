@@ -1,0 +1,25 @@
+<div class="active-form" *ngFor="let item of folders">
+    <div style="width: 10px; float: right; margin-right:16px; margin-top: 5px;">
+        <a href=""><i class="fas fa-ellipsis-v"></i></a>
+    </div>
+    <i class="fas fa-file fa-6x" style="margin-left: 10px;"></i>
+    <div class="file-img">
+        <div class="form-desc">
+            <div style="width:fit-content; display: inline-block;">
+                <a href="">Activity</a>
+            </div>
+            <div style="width:auto; float: right;">
+                <p style="color: green;"><b>Active</b></p>
+            </div>
+            <div>
+                <p>{{item}}</p>
+            </div>
+            <div>
+                <p>Active from : <b style="color: blue;">28th June 2021</b></p>
+            </div>
+            <div>
+                <p>Total Responses : <b style="color: blue;">28th June 2021</b></p>
+            </div>
+        </div>
+    </div>
+</div>

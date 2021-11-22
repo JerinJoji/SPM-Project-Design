@@ -1,24 +1,37 @@
+body{
+    background: #D1D1D1;
+}
+
 a{
-    color:black;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 0px; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
 }
 
 .file{
     display: inline-block;
-    width: 221.09px; 
-    height: 195.83px;
-    padding-top: 26.17px;
-    padding-bottom:25.83px;
+    width: 211.09px; 
+    height: auto;
+    padding-bottom: 12px;
+    padding-top: 8.17px;
     padding-left: 12px;
-    padding-right:18.09px;  
+    padding-right:18.09px;
+    border: 1px solid #B7B7B7;  
     border-radius:10px;
+    margin-right: 60px;
+    margin-bottom: 40px;
 }
 
 .file-info{
     height: 18px; 
     width: 18px;
-    left: 459px;
-    top: 302px;
-    border-radius: 0px;
+    margin: 0px;
+    display: inline-block;
 }
 
 .folder-icon{
@@ -37,10 +50,7 @@ a{
 }
 
 .folder-title{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
+    height:auto;
     line-height: 23px;
     text-align: center;
 }
