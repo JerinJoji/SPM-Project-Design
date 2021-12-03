@@ -6,6 +6,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MainDocumentsComponent } from './main-documents/main-documents.component';
 import { ActiveFormComponent } from './active-form/active-form.component';
 import { FormFilesComponent } from './form-files/form-files.component';
+import { ModalComponent } from './modal/modal.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { FormFilesComponent } from './form-files/form-files.component';
     AppComponent,
     MainDocumentsComponent,
     ActiveFormComponent,
-    FormFilesComponent
+    FormFilesComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
